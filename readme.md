@@ -1,4 +1,4 @@
-# Running Reolink App on Arch Linux with WinBoat
+# Running Reolink App on Linux with WinBoat
 
 A guide to running the Reolink Windows client on Arch Linux using the dockur/windows Docker container.
 
