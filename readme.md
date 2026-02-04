@@ -4,7 +4,7 @@ A guide to running the Reolink Windows client on Arch Linux using the dockur/win
 
 ## Overview
 
-If you are like me you prefer to use Linux. However, Reolink refuses to make a native Linux client (Boo). This guide helps you run the Reolink camera management software on Arch Linux (or any Linux distro) by using a full Windows environment in WinBoat/Docker. This is particularly useful for Reolink cameras that don't support RTSP or browser-based access.
+If you are like me you prefer to use Linux (I use Arch btw 😉). However, Reolink refuses to make a native Linux client (Boo). This guide helps you run the Reolink camera management software on Arch Linux (or any Linux distro, slightly different steps) by using a full Windows environment in WinBoat/Docker. This is particularly useful for Reolink cameras that don't support RTSP or browser-based access.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ If you are like me you prefer to use Linux. However, Reolink refuses to make a n
 
 ## Installation
 
-### 1. Install Docker (if not already installed)
+### 1. Install Docker and dependencies (if not already installed)
 
 See [Docker Documentation](https://docs.docker.com/)
 
@@ -36,9 +36,9 @@ Visit [https://www.winboat.app/](https://www.winboat.app/) and download the late
 
 Right click the AppImage file, go to properties and give it execute permissions.
 
-After confirming all the green check boxes are ok, install Windows.
+After launching and confirming all the green check boxes are ok, install Windows.
 
-**Note:** This will take a while as it has to pull Windows and install it.
+**Note:** This will take a while as it has to pull Windows and install it. Microsoft doesn't like you using a VPN to download 💩
 
 ### 4. Connect to Windows Container
 
